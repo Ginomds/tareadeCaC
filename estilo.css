@@ -1,0 +1,170 @@
+.encabezado{
+    background-color: rgb(38, 49, 58);
+    color: aliceblue;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.torre{
+    height: 570px;
+    background-image: 
+    linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)),
+    url("fondoTorre.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: aliceblue;
+    text-align: right;
+  }
+.dentroTorre{
+          padding:  150px;
+          padding-top: 230px;
+}
+#CaC{
+    width: 150px;
+    
+}
+.activo{
+    color: aliceblue;
+}
+.arriba{
+    color: grey;
+}
+.verde{
+    color: green;
+}
+.botonOrador{
+    color: transparent;
+    border-color: aliceblue;
+    color: aliceblue;
+}
+.botonVerde{
+    background-color: limegreen;
+    color: aliceblue;
+}
+.abajoTorre{
+text-align: center;
+border-color: black;
+}
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.oradores{
+    width: 302px;
+    border: 0.5px solid rgb(219, 219, 219);
+}
+.oradores>img{
+    width:300px ;
+}
+.lorem{
+    font-size: 13px;
+    
+    color: grey;
+
+}
+.JavaScript{
+    background-color: yellow;
+    margin: 10px;
+    margin-top: 20px;
+
+}
+.React{
+    background-color: darkturquoise;
+    color: aliceblue;
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 0;
+}
+.Startups{
+    color: aliceblue;
+    background-color: red;
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 0;
+}
+.Negocios{
+    color: aliceblue;
+    background-color: grey;
+    margin: 10px;
+    margin-top: 20px;
+}
+.nombres{
+    margin: 10px;
+    font-size: 20px;
+}
+.fondo{
+    background-color: rgb(38, 49, 58);
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    
+    
+    
+}
+.honolulu{
+    width: 675px;
+    border-right: 1px solid aliceblue;
+}
+.alao{
+    color: aliceblue;
+    display: inline;
+}
+.alao>p{
+    font-size: 13px;
+}
+.alao>h1{
+    margin-top: 10px;
+}
+.alao>button{
+    background-color: transparent;
+    border-color: aliceblue;
+    color: aliceblue;
+}
+.ultimo{
+    justify-content: center;
+    text-align: center;
+}
+.ultimo>p{
+    display: inline;
+    text-decoration: underline dotted;
+}
+.entradas{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.apellidoEntrada{
+    display: inline;
+}
+.input{
+    width:335px ;
+    display: inline;
+    margin: 5px;
+}
+.inputtres{
+    margin: 5px;
+}
+.lavezzi{
+    color: grey;
+    font-size: smaller;
+}
+.enviar{
+    background-color: rgba(128, 255, 0, 0.781);
+    width: 675px;
+}
+footer{
+    background-color:  darkslategray;   
+}
+.abajo{
+    justify-content: center;
+}
+.abajo>ul>li>a{
+    color: aliceblue;
+    width: 150px;
+}
